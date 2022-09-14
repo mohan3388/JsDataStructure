@@ -13,3 +13,25 @@ console.log("2nd Largest number: "+rand[rand.length-2]);
 console.log("2nd Smallest number: "+rand[1]);
 
 
+
+//Uc2
+const arr=[];
+const val=15;
+var count=0;
+for(i=2; i<=val; i++)
+{
+    for(j=1; j<=i; j++)
+    {
+        if(i%j==0)
+        {
+            count++;
+           
+        }
+    }
+    if(count==2)
+    {
+        arr.push(i);
+    }
+    count =0;
+}
+console.log(arr);
