@@ -34,4 +34,17 @@ for(i=2; i<=val; i++)
     }
     count =0;
 }
-console.log(arr);
+console.log("Prime Factor: "+arr);
+
+//Uc3
+
+const arr2=[];
+for(i=1; i<=100; i++)
+{
+    if(i%11==0)
+    {
+        arr2.push(i);
+    }
+  
+}
+console.log("twice number: "+arr2);
